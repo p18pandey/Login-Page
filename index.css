@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto&display=swap');
+
+* {
+    margin: 5px;
+    padding: 7px;
+}
+
+body {
+    background: url(pic2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+
+    /* border: 12px solid black; */
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+
+}
+
+.container h1 {
+    font-size: 40px;
+    border-bottom: 5px solid rgb(174, 167, 167);
+    margin-bottom: 33p;
+    padding: 13px 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.box {
+    width: 100%;
+    /* border: 2px solid white; */
+
+    border-bottom: 2px solid white;
+    margin: 32px 0px;
+}
+
+.box input {
+    background: none;
+    border: 2px white;
+
+    border-radius: 10px;
+
+    border-bottom: 10px solid white;
+    width: 75;
+    margin: 12px 0px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: rgb(166, 155, 155);
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box i {
+    width: 25px;
+    text-align: center;
+}
+
+.btn {
+    background: none;
+    color: #e6e0e0;
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px;
+    padding: 6px;
+    border: 2px solid #e2afaf;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: rgb(247, 241, 241);
+    color: #867c7c;
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px;
+    padding: 6px;
+    border: 2px solid #e2afaf;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    opacity: 0.8;
+
+}
